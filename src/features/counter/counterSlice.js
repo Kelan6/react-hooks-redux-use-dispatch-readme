@@ -1,3 +1,8 @@
+export function incrementCount() {
+  return { type: "count/increment" };
+}
+
+// Reducer
 const initialState = {
   items: [],
 };
@@ -17,4 +22,4 @@ function counterReducer(state = initialState, action) {
   }
 }
 
-export default counterReducer;
+exp`ort default counterReducer;`
